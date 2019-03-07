@@ -7,7 +7,7 @@ public class StackHospital<PatientType> extends Hospital{
 	@Override
 	public void addPatient(Object patient) {
 		// TODO Auto-generated method stub
-		list.addLast(patient);
+		list.addFirst(patient);
 		
 	}
 
