@@ -31,7 +31,7 @@ public class QueueHospital<PatientType> extends Hospital{
 	@Override
 	public String hospitalType() {
 		// TODO Auto-generated method stub
-		return "Queue";
+		return "QueueHospital";
 	}
 
 	@Override
@@ -39,7 +39,7 @@ public class QueueHospital<PatientType> extends Hospital{
 		// TODO Auto-generated method stub
 		String ans = "";
 		for(Object single : list) {
-			ans += single.toString() + "\n";
+			ans += single.toString();
 		}
 		return ans;
 	}

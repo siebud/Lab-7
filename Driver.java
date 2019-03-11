@@ -146,7 +146,7 @@ public class Driver
                 			Person treated = personHospitals.get(i).treatNextPatient();
                 			System.out.println(String.format("%s: treated - %s", phNames[i], treated));
                 		}
-
+ 
                 	}
                 	else
                 	{

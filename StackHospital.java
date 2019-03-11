@@ -31,7 +31,7 @@ public class StackHospital<PatientType> extends Hospital{
 
 	@Override
 	public String hospitalType() {
-		return "Stack";
+		return "StackHospital";
 	}
 
 	@Override
@@ -39,7 +39,7 @@ public class StackHospital<PatientType> extends Hospital{
 		// TODO Auto-generated method stub
 		String ans = "";
 		for(Object single : list) {
-			ans += single.toString() + "\n";
+			ans += single.toString();
 		}
 		return ans;
 	}
